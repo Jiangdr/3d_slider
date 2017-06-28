@@ -1,0 +1,104 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-03-16 09:26:33
+ * @version $Id$
+ */
+/*****************************************************************************/
+
+.slide-3d-wrap{
+    width: 520px;
+    height: 520px;
+    background: rgba(10, 10, 200, 0.6);
+    margin: 100px auto;
+    padding: 10px;
+    position: relative;
+    transform-style: preserve-3d;
+    cursor: -webkit-grab;
+    perspective: 1200px;
+}
+.slide-3d-wrap>ul{
+    transform-style: preserve-3d;
+}
+.slide-3d-wrap>ul>li{
+    /*position: absolute;*/
+    float: left;
+    height: 500px;
+    background: rgba(250, 120, 200, 0.8);
+    /*transform: translate3d(0px, 0px, -900px) rotateX(0deg) rotateY(450deg);*/
+    /*z-index: 10;*/
+    transform-style: preserve-3d;
+    border-radius: 2%;
+}
+.slide-3d-wrap>.slide-btn{
+    width: 150%;
+    height: 80px;
+    /*margin-left: -25%;*/
+    /*margin-top: 40%;*/
+    position: absolute;
+    top: 40%;
+    left: -25%;
+}
+.slide-3d-wrap>.slide-btn span{
+    display: block;
+    width: 45px;
+    height: 100%;
+    background: lime;
+}
+.slide-3d-wrap .slide-left{
+    float: left;
+}
+.slide-3d-wrap .slide-right{
+    float: right;
+}
+.slide-btn-dot{
+    width: 100%;
+    margin-left: -10px;
+    height: 15px;
+    position: absolute;
+    bottom: 30px;
+    text-align: center;
+}
+.slide-btn-dot span{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin: 0 5px;
+    border-radius: 50%;
+    background: #ffffff;
+    border: 2px solid;
+    border-color: #aaa;
+}
+.slide-btn-dot .slide-selected{
+    border-color: #ff6700;
+    background: #6e39ef;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

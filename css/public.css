@@ -1,0 +1,39 @@
+@charset "UTF-8";
+/**
+ * 公用样式
+ * @authors Your Name (you@example.org)
+ * @date    2017-03-16 09:26:33
+ * @version $Id$
+ */
+ /*初始化样式*/
+*,*:before,*:after{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+ ul,li{
+ 	list-style: none;
+ }
+ a{
+ 	color: #333;
+ 	text-decoration: none;
+ }
+ body{
+ 	font: 16px 微软雅黑;
+ 	color: #000;
+ }
+ /*清除浮动*/
+ .clearFix:before,.clearFix:after{
+	content: "";
+	display: table;
+ }
+ .clearFix:after{
+ 	clear: both;
+ }
+ .fl{
+ 	float: left;
+ }
+ .fr{
+ 	float: right;
+ }
+/*****************************************************************************/
